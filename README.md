@@ -80,6 +80,11 @@ cd TaskManager
          providerName="System.Data.EntityClient" />
 </connectionStrings>
 
+    <add name="TaskManagerEntities" 
+         connectionString="metadata=res://*/TaskManagerModel.csdl|res://*/TaskManagerModel.ssdl|res://*/TaskManagerModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.\SQLEXPRESS;initial catalog=TaskManagerDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" 
+         providerName="System.Data.EntityClient" />
+</connectionStrings>
+
 📁 Структура проекта
 
 TaskManager/
